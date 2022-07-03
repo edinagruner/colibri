@@ -61,8 +61,11 @@ ul {
 
 a{
     font-family: 'Quicksand', sans-serif; 
+    
 }
-
+a:hover{
+  text-decoration: none;
+}
 li>a{
     color: white;
     font-size: small;
@@ -322,9 +325,14 @@ box-shadow: 10px 10px 5px -6px rgba(102,102,102,0.39);
     top:0;
     text-align: center;
     }
+    h4.logo{
+      text-decoration: none;
+      color:#F9638B;
+      margin-top:30px;
+    }
   .box.white>img{
-    width:100%;
-    margin:30px auto;
+    width:60%;
+    margin:15px auto;
     
   }
   .box_cover:hover{
@@ -348,6 +356,17 @@ background: linear-gradient(90deg, rgba(246,233,98,1) 0%, rgba(249,99,139,1) 32%
     height:2px;
     border-radius: 1px;
     margin:30px auto;
+  }
+  .leaves{
+    background-image: url("img/raspberry_bg.png");
+    background-size: cover;
+    height:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 20;
+    margin-top:-600px;
+
   }
   
    /*About page*/
